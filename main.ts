@@ -25,7 +25,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
             . . . . . . . . . . . . . . . . 
             . . . . . . . . . . . . . . . . 
             . . . . . . . . . . . . . . . . 
-            `, mySprite, 50, 50)
+            `, mySprite, randint(-100, 100), randint(-100, 100))
         info.changeLifeBy(-1)
         info.changeScoreBy(1)
         pause(100)
